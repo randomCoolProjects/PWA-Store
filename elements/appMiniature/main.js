@@ -1,0 +1,4 @@
+function appMiniature(id)
+{
+    
+}

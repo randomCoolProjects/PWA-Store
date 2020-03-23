@@ -1,0 +1,16 @@
+function pwaSetup()
+{
+    const winW = 340;
+    const winH = 260;
+
+    const sW = screen.width;
+    const sH = screen.height;
+
+    const winX = Math.abs(winW / 2 - sW / 2);
+    const winY = Math.abs(winH / 2 - sH / 2);
+
+    const winStr = `width=${winW},height=${winH},left=${winX},top=${winY}`;
+
+    var w = window.open('https://mdn.github.io/pwa-examples/a2hs/', '', winStr);
+    console.log(winStr)
+}

@@ -1,0 +1,45 @@
+.app-card
+{
+    width: 100%;
+    height: 250px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+    overflow: hidden;
+}
+
+.app-card-name
+{
+    font-size: 32px;
+    font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+    font-weight: 100;
+    height: 32px;
+    width: 100%;
+    line-height: 32px;
+}
+
+.app-card-container
+{
+    display: flex;
+    min-width: 100%;
+    width: auto;
+    height: 210px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+}
+
+
+.app-card-container::-webkit-scrollbar {
+    height: 7px;
+  }
+   
+  .app-card-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  .app-card-container::-webkit-scrollbar-thumb {
+    background-color: rgb(189, 189, 189);
+    outline: 1px solid slategrey;
+  }

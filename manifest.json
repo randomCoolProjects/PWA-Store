@@ -1,0 +1,23 @@
+{
+    "short_name": "PWA Store",
+    "name": "PWA Store: APP Store",
+    "id": "PWA",
+    "description": "PWA App store - Best PWAs here!",
+    "icons": [
+      {
+        "src": "../img/icon/i192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "../img/icon/i512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "orientation": "portrait",
+    "start_url": "./index.html",
+    "background_color": "#e6e6e6",
+    "display": "standalone",
+    "theme_color": "#e6e6e6"
+  }

@@ -1,0 +1,135 @@
+* {
+    user-select: none;
+}
+
+.loading-h1
+{
+    display: none !important;
+}
+
+.float-left
+{
+    float: left;
+}
+
+.float-right
+{
+    float: right;
+}
+
+.title
+{
+    font-size: 32px;
+    font-weight: 100;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hidden
+{
+    display: none !important;
+}
+
+.navbar
+{
+    margin: 0px;
+    padding: 12px;
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+    width: 100%;
+    box-shadow: 2px 2px 5px rgb(185, 185, 185);
+    background-color: white;
+}
+
+.navbar-camp
+{
+    height: 100%;
+    width: auto;
+    min-width: 76%;
+    /*max-width: 600px;*/
+}
+
+input[type=search]
+{
+    width: 75%;
+    float: left;
+}
+
+button[type=submit]
+{
+    width: 23%;
+    margin: 0px;
+    float: right;
+}
+
+.hamburguer-menu
+{
+    z-index: 15;
+    left: 0px;
+    background-color: white;
+    width: 180px;
+    display: block;
+    position: absolute;
+    top: 60px;
+    height: calc(100vh - 60px);
+    box-shadow: 2px 4.5px 5px rgb(185, 185, 185);
+    transition: all .2s;
+}
+
+.hm-closed
+{
+    left: -120px;
+}
+
+.hm-item
+{
+    display: inline-block;
+    line-height: 60px;
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+    transition: all .2s;
+    text-align: center;
+}
+
+.hm-item > img
+{
+    transition: all .2s;
+    width: 60px;
+    height: 60px;
+    float: right;
+    opacity: 0.7;
+}
+
+.hm-item:hover
+{
+    background-color: rgba(160, 160, 160, 0.4);
+}
+
+.hm-item:active
+{
+    background-color: rgba(130, 130, 130, 0.6);
+}
+
+.hm-closed > .hm-item > .hm-arrow
+{
+    transform: rotateZ(180deg);
+}
+
+html, body
+{
+    overflow: hidden;
+}
+
+.body-area
+{
+    padding: 15px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: calc(100vw - 60px);
+    height: calc(100vh - 60px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
