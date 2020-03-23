@@ -5,12 +5,12 @@
     "description": "PWA App store - Best PWAs here!",
     "icons": [
       {
-        "src": "../img/icon/i192.png",
+        "src": "./img/icon/i192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "../img/icon/i512.png",
+        "src": "./img/icon/i512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
