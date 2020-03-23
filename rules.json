@@ -17,7 +17,7 @@
     {
         "index.html":
         {
-            "title": "PWA Store - Loja de aplicativos"
+            "title": "PWA Store"
         }
     },
     "elementsPath": "./elements/"

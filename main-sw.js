@@ -23,10 +23,20 @@ const staticResources = [
     './global/src/popper.js',
     './global/src/swal.js',
 
+    './loader.js',
+
+    './img/icon/fav.png',
+    './img/icon/i512.png',
+    './img/icon/i192.png',
+
+    './img/arrow.png',
+    './img/checked.png',
+    './img/quest.png',
+
     './rules.json',
 
     //'./appLoad.html',
-    //'./manifest.json',
+    './manifest.json',
 ];
 
 const CACHE_NAME = 'pwa-st-cache';
